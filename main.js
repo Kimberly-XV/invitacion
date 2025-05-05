@@ -10,7 +10,7 @@ for (let i = 0; i < 30; i++) {
 
 // Cuenta regresiva
 const countdown = document.getElementById("countdown");
-const targetDate = new Date("2025-06-07T18:00:00").getTime();
+const targetDate = new Date("2025-06-07T17:00:00").getTime();
 
 function updateCountdown() {
   const now = new Date().getTime();
